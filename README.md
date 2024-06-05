@@ -318,6 +318,15 @@ bash tools/track_all_timestamps.sh --weights "pretrained/yolov7-e6e.pt" --source
 
 The submission file and visualized images will be saved by default at `runs/detect/<timestamp>`.
 
+
+#log.txt為我們再訓練REID module時的紀錄可以查看。
+其中REID module最好的model 是epcoh58 詳細下載點:(https://drive.google.com/file/d/1CfYWgug_THdZIR0udWTbgPBWpde6hrKn/view?usp=sharing)
+
+YoloV7 fine-tune之結果紀錄在此 最後使用best.pt做為測試使用之權重(https://drive.google.com/drive/folders/1Sf0hvHgT4DggY8hg9R9Dy-CzFTdoaxka?usp=drive_link)
+
+pred_res內的檔案為測試之後所得到之結果。(將此檔案上傳至AICUP官網進行評分)
+
+
 ## Evaluation format
 
 The evaluation format is the same as [py-motmetrics](https://github.com/cheind/py-motmetrics).
