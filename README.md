@@ -324,7 +324,8 @@ The submission file and visualized images will be saved by default at `runs/dete
 
 YoloV7 fine-tune之結果紀錄在此 最後使用best.pt做為測試使用之權重(https://drive.google.com/drive/folders/1Sf0hvHgT4DggY8hg9R9Dy-CzFTdoaxka?usp=drive_link)
 
-pred_res內的檔案為測試之後所得到之結果。(將此檔案上傳至AICUP官網進行評分)
+pred_res內的檔案為測試之後所得到之結果。(https://drive.google.com/drive/folders/1fnh2vH5YiZ30-Nu7zhNmG2koOvnnp4l0?usp=sharing)
+(將此檔案上傳至AICUP官網進行評分)
 
 
 ## Evaluation format
